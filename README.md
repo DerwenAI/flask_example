@@ -1,15 +1,17 @@
 # flask_example
 
-install:
+Install:
 
 ```
 pip install -r requirements.txt
 ```
 
-launch:
+Launch:
 
 ```
 python app.py
 ```
 
-then load `http://localhost:5000/apidocs/` in your browser
+Then load `http://localhost:5000/apidocs/` in your browser.
+
+Also, it's best to create a better "secret" in the `flask.cfg` file, and not something committed in a GitHub public repo :)
